@@ -5,25 +5,26 @@
  * @format
  */
 
-import React from 'react';
+import React, {useEffect} from 'react';
 import type {PropsWithChildren} from 'react';
 import {
+  useColorScheme,
   SafeAreaView,
   ScrollView,
-  StatusBar,
   StyleSheet,
+  StatusBar,
   Text,
-  useColorScheme,
   View,
 } from 'react-native';
-
 import {
   Colors,
-  DebugInstructions,
   Header,
   LearnMoreLinks,
+  DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import {Home, User, Users} from '@src/components/screens';
+import {getUsers} from '@src/services';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -31,8 +32,18 @@ type SectionProps = PropsWithChildren<{
 
 function Section({children, title}: SectionProps): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
+
+  useEffect(() => {
+    getUsers(200).then((data: any) => {
+      console.log(data.results.length);
+    });
+  }, []);
+
   return (
     <View style={styles.sectionContainer}>
+      <Home />
+      <Users />
+      <User />
       <Text
         style={[
           styles.sectionTitle,
