@@ -1,7 +1,13 @@
-import {View} from 'react-native';
+import {IUsersList, TemplateWrapper, UsersList} from '@src/components';
 
-const Users = () => {
-  return <View></View>;
+interface Props extends IUsersList {}
+
+const Users = (props: Props) => {
+  return (
+    <TemplateWrapper>
+      <UsersList {...props} />
+    </TemplateWrapper>
+  );
 };
 
 export default Users;

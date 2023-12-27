@@ -1,7 +1,10 @@
-import {View} from 'react-native';
+import {UsersTemplate} from '@src/components';
+import {useAppSelector} from '@src/store';
 
 const Users = () => {
-  return <View></View>;
+  const {users} = useAppSelector(state => state.users);
+
+  return <UsersTemplate users={users} />;
 };
 
 export default Users;

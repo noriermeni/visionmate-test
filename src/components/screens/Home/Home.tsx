@@ -1,7 +1,7 @@
-import {View} from 'react-native';
+import {HomeTemplate} from '@src/components';
 
 const Home = () => {
-  return <View></View>;
+  return <HomeTemplate />;
 };
 
 export default Home;
