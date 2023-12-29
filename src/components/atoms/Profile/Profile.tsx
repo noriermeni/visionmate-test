@@ -13,11 +13,13 @@ const Profile = (props: IProfile) => {
     ? percentWidth(100) - 20
     : (percentWidth(100) - 20) / 4;
 
+  const borderRadius: number = useScreenWidth ? 10 : 5;
+
   return (
     <View
       style={{
         width,
-        borderRadius: 10,
+        borderRadius,
         borderWidth: 1,
         borderColor: colors.border,
         overflow: 'hidden',

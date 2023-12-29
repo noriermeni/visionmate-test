@@ -1,13 +1,15 @@
 import React from 'react';
-import {ScrollView, View} from 'react-native';
+import {ScrollView, StyleProp, ViewStyle, View} from 'react-native';
 import {colors} from '@src/utils';
 
 interface ITemplateWrappers {
   children: React.ReactNode;
   withScroll?: boolean;
+  wrapperStyle?: Partial<StyleProp<ViewStyle>>;
 }
 
-const TemplateWrapper = ({children, withScroll}: ITemplateWrappers) => {
+const TemplateWrapper = (props: ITemplateWrappers) => {
+  const {children, wrapperStyle, withScroll} = props;
   if (withScroll) {
     return (
       <ScrollView
@@ -15,6 +17,7 @@ const TemplateWrapper = ({children, withScroll}: ITemplateWrappers) => {
           flex: 1,
           padding: 10,
           backgroundColor: colors.background,
+          ...wrapperStyle,
         }}>
         {children}
       </ScrollView>
@@ -26,6 +29,7 @@ const TemplateWrapper = ({children, withScroll}: ITemplateWrappers) => {
         flex: 1,
         padding: 10,
         backgroundColor: colors.background,
+        ...wrapperStyle,
       }}>
       {children}
     </View>

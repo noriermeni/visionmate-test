@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7F1AC992B4056954DF85F815 /* libPods-VisionmateTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BDF3AEE6B4FAC9BF3AD1C /* libPods-VisionmateTest.a */; };
+		51583E597E7022048E447367 /* libPods-VisionmateTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7DBE77992E68B98CAB5FF9 /* libPods-VisionmateTest.a */; };
+		6F2C804499322D5DCA8073CF /* libPods-VisionmateTest-VisionmateTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8706F717242BB3748DB022 /* libPods-VisionmateTest-VisionmateTestTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		ACFD475758AC41C1BBB986C1 /* libPods-VisionmateTest-VisionmateTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E2D6A3B333D9D21FD28FDD /* libPods-VisionmateTest-VisionmateTestTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +30,20 @@
 		00E356EE1AD99517003FC87E /* VisionmateTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionmateTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* VisionmateTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisionmateTestTests.m; sourceTree = "<group>"; };
+		033FDEDC7526BF3110EA30A8 /* Pods-VisionmateTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionmateTest.debug.xcconfig"; path = "Target Support Files/Pods-VisionmateTest/Pods-VisionmateTest.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* VisionmateTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionmateTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = VisionmateTest/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = VisionmateTest/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VisionmateTest/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VisionmateTest/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = VisionmateTest/main.m; sourceTree = "<group>"; };
-		301BDF3AEE6B4FAC9BF3AD1C /* libPods-VisionmateTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisionmateTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		37E2D6A3B333D9D21FD28FDD /* libPods-VisionmateTest-VisionmateTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisionmateTest-VisionmateTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		37ECC8F627DC797B3FA59273 /* Pods-VisionmateTest-VisionmateTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionmateTest-VisionmateTestTests.debug.xcconfig"; path = "Target Support Files/Pods-VisionmateTest-VisionmateTestTests/Pods-VisionmateTest-VisionmateTestTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5320BAF013A117B3C630F9D3 /* Pods-VisionmateTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionmateTest.debug.xcconfig"; path = "Target Support Files/Pods-VisionmateTest/Pods-VisionmateTest.debug.xcconfig"; sourceTree = "<group>"; };
+		6348216F6D1E638F5319151A /* Pods-VisionmateTest-VisionmateTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionmateTest-VisionmateTestTests.release.xcconfig"; path = "Target Support Files/Pods-VisionmateTest-VisionmateTestTests/Pods-VisionmateTest-VisionmateTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A7DBE77992E68B98CAB5FF9 /* libPods-VisionmateTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisionmateTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACA8B11EEF0148D468AAA0B /* Pods-VisionmateTest-VisionmateTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionmateTest-VisionmateTestTests.debug.xcconfig"; path = "Target Support Files/Pods-VisionmateTest-VisionmateTestTests/Pods-VisionmateTest-VisionmateTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = VisionmateTest/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D6BA06203B6B92F8DF63D6BB /* Pods-VisionmateTest-VisionmateTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionmateTest-VisionmateTestTests.release.xcconfig"; path = "Target Support Files/Pods-VisionmateTest-VisionmateTestTests/Pods-VisionmateTest-VisionmateTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF8706F717242BB3748DB022 /* libPods-VisionmateTest-VisionmateTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VisionmateTest-VisionmateTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC30B91F968565DF57038680 /* Pods-VisionmateTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionmateTest.release.xcconfig"; path = "Target Support Files/Pods-VisionmateTest/Pods-VisionmateTest.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F5F157C748367CDA23A2D684 /* Pods-VisionmateTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionmateTest.release.xcconfig"; path = "Target Support Files/Pods-VisionmateTest/Pods-VisionmateTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACFD475758AC41C1BBB986C1 /* libPods-VisionmateTest-VisionmateTestTests.a in Frameworks */,
+				6F2C804499322D5DCA8073CF /* libPods-VisionmateTest-VisionmateTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F1AC992B4056954DF85F815 /* libPods-VisionmateTest.a in Frameworks */,
+				51583E597E7022048E447367 /* libPods-VisionmateTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				301BDF3AEE6B4FAC9BF3AD1C /* libPods-VisionmateTest.a */,
-				37E2D6A3B333D9D21FD28FDD /* libPods-VisionmateTest-VisionmateTestTests.a */,
+				6A7DBE77992E68B98CAB5FF9 /* libPods-VisionmateTest.a */,
+				BF8706F717242BB3748DB022 /* libPods-VisionmateTest-VisionmateTestTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5320BAF013A117B3C630F9D3 /* Pods-VisionmateTest.debug.xcconfig */,
-				F5F157C748367CDA23A2D684 /* Pods-VisionmateTest.release.xcconfig */,
-				37ECC8F627DC797B3FA59273 /* Pods-VisionmateTest-VisionmateTestTests.debug.xcconfig */,
-				D6BA06203B6B92F8DF63D6BB /* Pods-VisionmateTest-VisionmateTestTests.release.xcconfig */,
+				033FDEDC7526BF3110EA30A8 /* Pods-VisionmateTest.debug.xcconfig */,
+				DC30B91F968565DF57038680 /* Pods-VisionmateTest.release.xcconfig */,
+				7ACA8B11EEF0148D468AAA0B /* Pods-VisionmateTest-VisionmateTestTests.debug.xcconfig */,
+				6348216F6D1E638F5319151A /* Pods-VisionmateTest-VisionmateTestTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VisionmateTestTests" */;
 			buildPhases = (
-				15696469A8741645E1A16388 /* [CP] Check Pods Manifest.lock */,
+				D55C55DEB5D6B4D5FC7E6B25 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				08374BFDE56FA96FFDF33978 /* [CP] Embed Pods Frameworks */,
-				63631C3A31398A9804318F26 /* [CP] Copy Pods Resources */,
+				89482C7CBFEB6847E7DA16E5 /* [CP] Embed Pods Frameworks */,
+				84817FDA580C5703D1776B55 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,13 +176,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VisionmateTest" */;
 			buildPhases = (
-				BBDFCC1A568872D85E2C76C9 /* [CP] Check Pods Manifest.lock */,
+				2169BEB4EF0FCC93C87B4705 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				ADF6FEE69BC486224BDB7183 /* [CP] Embed Pods Frameworks */,
-				386D046EBB1FA01544C945D3 /* [CP] Copy Pods Resources */,
+				395CF7BB849D3AE4185E37E1 /* [CP] Embed Pods Frameworks */,
+				1F9BF09E99D05CAE50BE249F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,46 +265,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		08374BFDE56FA96FFDF33978 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VisionmateTest-VisionmateTestTests/Pods-VisionmateTest-VisionmateTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VisionmateTest-VisionmateTestTests/Pods-VisionmateTest-VisionmateTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionmateTest-VisionmateTestTests/Pods-VisionmateTest-VisionmateTestTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		15696469A8741645E1A16388 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VisionmateTest-VisionmateTestTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		386D046EBB1FA01544C945D3 /* [CP] Copy Pods Resources */ = {
+		1F9BF09E99D05CAE50BE249F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,24 +282,29 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionmateTest/Pods-VisionmateTest-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		63631C3A31398A9804318F26 /* [CP] Copy Pods Resources */ = {
+		2169BEB4EF0FCC93C87B4705 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VisionmateTest-VisionmateTestTests/Pods-VisionmateTest-VisionmateTestTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VisionmateTest-VisionmateTestTests/Pods-VisionmateTest-VisionmateTestTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VisionmateTest-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionmateTest-VisionmateTestTests/Pods-VisionmateTest-VisionmateTestTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ADF6FEE69BC486224BDB7183 /* [CP] Embed Pods Frameworks */ = {
+		395CF7BB849D3AE4185E37E1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -355,7 +321,41 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionmateTest/Pods-VisionmateTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BBDFCC1A568872D85E2C76C9 /* [CP] Check Pods Manifest.lock */ = {
+		84817FDA580C5703D1776B55 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisionmateTest-VisionmateTestTests/Pods-VisionmateTest-VisionmateTestTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisionmateTest-VisionmateTestTests/Pods-VisionmateTest-VisionmateTestTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionmateTest-VisionmateTestTests/Pods-VisionmateTest-VisionmateTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89482C7CBFEB6847E7DA16E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisionmateTest-VisionmateTestTests/Pods-VisionmateTest-VisionmateTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisionmateTest-VisionmateTestTests/Pods-VisionmateTest-VisionmateTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionmateTest-VisionmateTestTests/Pods-VisionmateTest-VisionmateTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D55C55DEB5D6B4D5FC7E6B25 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,7 +370,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VisionmateTest-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-VisionmateTest-VisionmateTestTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -410,7 +410,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37ECC8F627DC797B3FA59273 /* Pods-VisionmateTest-VisionmateTestTests.debug.xcconfig */;
+			baseConfigurationReference = 7ACA8B11EEF0148D468AAA0B /* Pods-VisionmateTest-VisionmateTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -437,7 +437,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6BA06203B6B92F8DF63D6BB /* Pods-VisionmateTest-VisionmateTestTests.release.xcconfig */;
+			baseConfigurationReference = 6348216F6D1E638F5319151A /* Pods-VisionmateTest-VisionmateTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -461,7 +461,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5320BAF013A117B3C630F9D3 /* Pods-VisionmateTest.debug.xcconfig */;
+			baseConfigurationReference = 033FDEDC7526BF3110EA30A8 /* Pods-VisionmateTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -488,7 +488,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5F157C748367CDA23A2D684 /* Pods-VisionmateTest.release.xcconfig */;
+			baseConfigurationReference = DC30B91F968565DF57038680 /* Pods-VisionmateTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

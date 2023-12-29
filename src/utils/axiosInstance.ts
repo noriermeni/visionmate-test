@@ -10,7 +10,8 @@ const config: AxiosRequestConfig = {
   baseURL: 'https://randomuser.me/api/',
   headers: {
     Authorization: '',
-    'Content-Type': 'application/json',
+    'Content-Type': 'application/x-www-form-urlencoded',
+    Accept: 'application/json',
   },
 };
 
@@ -22,7 +23,6 @@ export const request = <T>(
   data?: any,
   params?: object,
   headers?: AxiosRequestHeaders,
-  onDownloadProgress?: (progressEvent: any) => void,
 ): Promise<AxiosResponse<T>> => {
   return api.request<T>({
     method,
@@ -30,7 +30,6 @@ export const request = <T>(
     data,
     params,
     headers,
-    onDownloadProgress,
   });
 };
 

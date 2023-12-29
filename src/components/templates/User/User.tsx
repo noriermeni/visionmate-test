@@ -1,13 +1,17 @@
-import { IUser } from "@src/types";
-import { DefaultText, Profile, TemplateWrapper } from "@src/components";
-import { View } from "react-native";
+import {View} from 'react-native';
+import {DefaultText, NotFound, Profile, TemplateWrapper} from '@src/components';
+import {IUser} from '@src/types';
 
-export interface IUserTemplate extends IUser {
-}
+const User = (props: IUser) => {
+  const {login, name, picture, location, email} = props;
 
-const User = (props: IUserTemplate) => {
-  const { login, name, picture, location, gender, email } = props;
-
+  if (!name && !login && !location && !picture) {
+    return (
+      <TemplateWrapper>
+        <NotFound message="The user does not exist" />
+      </TemplateWrapper>
+    );
+  }
   return (
     <TemplateWrapper withScroll>
       <Profile useScreenWidth url={picture?.large} />
@@ -16,25 +20,25 @@ const User = (props: IUserTemplate) => {
           ellipsizeMode="tail"
           size="large"
           styleText={{marginBottom: 10}}>
-          {name.title}. {name.first} {name.last}
+          {name?.title}. {name.first} {name.last}
         </DefaultText>
         <DefaultText
           ellipsizeMode="tail"
           size="small"
-          styleText={{ marginBottom: 5 }}>
+          styleText={{marginBottom: 5}}>
           Username: {login.username}
         </DefaultText>
         <DefaultText
           ellipsizeMode="tail"
           size="small"
-          styleText={{ marginBottom: 5 }}>
+          styleText={{marginBottom: 5}}>
           City: {location.city}
         </DefaultText>
         <DefaultText
           numberOfLines={1}
           ellipsizeMode="tail"
           size="small"
-          styleText={{ marginBottom: 5 }}>
+          styleText={{marginBottom: 5}}>
           Email: {email}
         </DefaultText>
       </View>

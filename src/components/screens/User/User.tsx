@@ -4,6 +4,7 @@ import {IUser} from '@src/types';
 
 const User = () => {
   const route = useRoute<RouteProp<ParamListBase, 'Profile'>>();
+  // @ts-ignore
   const user: IUser = route?.params?.user;
 
   return <UserTemplate {...user} />;
