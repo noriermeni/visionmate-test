@@ -23,7 +23,6 @@ export const getRandomUser = async () => {
     const response = await request('GET', '', undefined, {
       inc: 'login, name, email, picture, location',
       results: 1,
-      callback: 'randomuserdata',
     });
     return response.data;
   } catch (e) {

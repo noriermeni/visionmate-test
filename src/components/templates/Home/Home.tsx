@@ -1,6 +1,7 @@
 import {useAppSelector} from '@src/store';
 import {useDefaultNavigation} from '@src/navigators/hooks';
-import { DefaultButton, DefaultText, TemplateWrapper } from "@src/components";
+import {DefaultButton, DefaultText, TemplateWrapper} from '@src/components';
+import {getRandomUser} from '@src/services';
 
 const Home = () => {
   const {navigate} = useDefaultNavigation();
@@ -28,6 +29,14 @@ const Home = () => {
       <DefaultButton
         title="Users list with Infinite Scroll"
         onPress={() => navigate('UsersInfiniteScroll')}
+        containerStyle={{marginBottom: 10}}
+      />
+      <DefaultButton
+        title="Random User/With endpoint"
+        onPress={async () => {
+          const response: any = await getRandomUser();
+          navigate('Profile', {user: response.results[0]});
+        }}
         containerStyle={{marginBottom: 10}}
       />
     </TemplateWrapper>
